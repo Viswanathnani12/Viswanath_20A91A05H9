@@ -1,0 +1,18 @@
+am=int(input())
+if am>=1000:
+    dis=am*10/100
+    am=am-dis
+elif am>=2000:
+    dis=am*20/100
+    am=am-dis
+elif am>=3000:
+    dis=am*30/100
+    am=am-dis
+elif am>=5000:
+     dis=am*40/100
+     am=am-dis
+else:
+    print("no discount")
+    
+print("Discount=",dis)
+print("Final Amount=",am)
